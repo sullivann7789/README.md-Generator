@@ -121,43 +121,45 @@ inquirer.prompt([
         } else if (license == 'none') {
             licenseinfo = ``
         }
-        const generateReadme = ( 
-        `
-        # ${title}
+        const generateReadme = 
+(
+`
+# ${title}
 
-        # Table of Contents
-        1. Description
-        2. Installation
-        3. Usage
-        4. Contributing
-        5. Tests
-        6. License
-        7. Questions
+# Table of Contents
+1. Description
+2. Installation
+3. Usage
+4. Contributing
+5. Tests
+6. License
+7. Questions
 
-        ## Description:
-        - ${description}
-        ### Why This Project Was Made:
-        - ${motivation}
+## Description:
+     - ${description}
+### Why This Project Was Made:
+     - ${motivation}
         
-        ## Installation:
-        - ${installation}
+## Installation:
+     - ${installation}
         
-        ## Usage:
-        - ${usage}
+## Usage:
+     - ${usage}
         
-        ## Contributors:
-        - ${contributors}
+## Contributors:
+     - ${contributors}
         
-        ## Tests:
-        - ${tests}
+## Tests:
+     - ${tests}
         
-        ## License:
-        - ${licenseinfo}
+## License:
+     - ${licenseinfo}
         
-        ### Questions:
-        - GitHub username:${gitUser}
-        - GitHub link: ${gitLink}
-        - You can contact us at: ${email}`);
+### Questions:
+     - GitHub username:${gitUser}
+     - GitHub link: ${gitLink}
+     - You can contact us at: ${email}`
+);
 
         fs.writeFile('README.md', generateReadme, (err) =>
             err ? console.log(err) : console.log('Success!')
