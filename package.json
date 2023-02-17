@@ -1,0 +1,22 @@
+{
+  "name": "readme.md-generator",
+  "version": "1.0.0",
+  "description": "Readmegenerator",
+  "main": "index.js",
+  "scripts": {
+    "test": "soka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sullivann7789/README.md-Generator.git"
+  },
+  "author": "Noah Sullivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sullivann7789/README.md-Generator/issues"
+  },
+  "homepage": "https://github.com/sullivann7789/README.md-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  }
+}
