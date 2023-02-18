@@ -2,13 +2,13 @@
 # README.md Generator
 
 # Table of Contents
-1. [Description](##Description)
-2. [Installation](##Installation)
-3. [Usage](##Usage)
-4. [Contributing](##Contributors)
-5. [Tests](##Tests)
-6. [License](##License)
-7. [Questions](###Questions)
+1. [Description](#Description)
+2. [Installation](#Installation)
+3. [Usage](#Usage)
+4. [Contributing](#Contributors)
+5. [Tests](#Tests)
+6. [License](#License)
+7. [Questions](#Questions)
 
 ## Description:
 - A node.js mini-program that can create README.md files for your projects on repo hubs like github
