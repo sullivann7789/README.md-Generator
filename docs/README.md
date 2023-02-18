@@ -1,5 +1,5 @@
 
-# Gatsby Market
+# README.md Generator
 
 # Table of Contents
 1. [Description](##Description)
@@ -11,24 +11,25 @@
 7. [Questions](###Questions)
 
 ## Description:
-- providing you with innovative business idea that our outside the box
+- A node.js mini-program that can create README.md files for your projects on repo hubs like github
 ### Why This Project Was Made:
-- being a business and culturally minded person, you would be glad to have such service
+- This was a class project created by UCSD Extended Studies bootcamp
         
 ## Installation:
-- run it on your terminal using node after forking or copying into the repo
+- First have node.js and vs code available to you, github helps too. Copy code off my github by forking the repo or cloning it into your local device. Then open in VScode and use node and inquirer package to node index.js the file to initiate the program
         
 ## Usage:
-- fill and go!
+- Very good for creating professional readme files for your github repos and web applications using the markdown file
         
 ## Contributors:
-- oden eoghan odin owen sulleaibhain lamh foistenach abu
+- Noah Sullivan
+- none
         
 ## Tests:
-- gatsbymarket
+- sullivann7789.github.io
         
 ## License:
-- Copyright (C) 1/17/2023  oden eoghan odin owen sulleaibhain lamh foistenach abu
+- Copyright (C) 1/17/2023 Noah Sullivan
 
             Licensed under the Apache License, Version 2.0 (the "License");
             you may not use this file except in compliance with the License.
@@ -43,6 +44,6 @@
             limitations under the License.
         
 ### Questions:
-- GitHub username:gatsbymarket.io
-- GitHub link: fgklds
-- You can contact us at: clad slkd 
+- GitHub username:sullivann7789
+- GitHub link: sullivann7789.github.io/README.md-Generator
+- You can contact us at: noahsullivan382@gmail.com
