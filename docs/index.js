@@ -10,13 +10,13 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: 'Motivation',
-        message: 'What was your motivation?',
+        name: 'description',
+        message: 'Provide a description of your Project:',
     },
     {
         type: 'input',
-        name: 'Description',
-        message: 'Provide a description of your Project:',
+        name: 'Motivation',
+        message: 'What was your motivation?',
     },
     {
         type: 'input',
@@ -30,7 +30,7 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contributors',
         message: 'List of other contributors:',
     },
     {
@@ -67,7 +67,7 @@ inquirer.prompt([
 
 ])
     .then((answers) => {
-        const {title, motivation, description, installation, usage, contributors, tests, license, gitUser, gitLink, email, name} = answers;
+        const {title, description, Motivation, installation, usage, contributors, tests, license, gitUser, gitLink, email, name} = answers;
         const date = new Date()
         if (license == 'MIT'){
             var licenseinfo = `Copyright (c) ${date.getMonth()+'/'+date.getDate()+'/'+date.getFullYear()} ${name}
@@ -127,38 +127,39 @@ inquirer.prompt([
 # ${title}
 
 # Table of Contents
-1. Description
-2. Installation
-3. Usage
-4. Contributing
-5. Tests
-6. License
-7. Questions
+1. [Description](##Description)
+2. [Installation](##Installation)
+3. [Usage](##Usage)
+4. [Contributing](##Contributors)
+5. [Tests](##Tests)
+6. [License](##License)
+7. [Questions](###Questions)
 
 ## Description:
-     - ${description}
+- ${description}
 ### Why This Project Was Made:
-     - ${motivation}
+- ${Motivation}
         
 ## Installation:
-     - ${installation}
+- ${installation}
         
 ## Usage:
-     - ${usage}
+- ${usage}
         
 ## Contributors:
-     - ${contributors}
+- ${name}
+- ${contributors}
         
 ## Tests:
-     - ${tests}
+- ${tests}
         
 ## License:
-     - ${licenseinfo}
+- ${licenseinfo}
         
 ### Questions:
-     - GitHub username:${gitUser}
-     - GitHub link: ${gitLink}
-     - You can contact us at: ${email}`
+- GitHub username:${gitUser}
+- GitHub link: ${gitLink}
+- You can contact us at: ${email}`
 );
 
         fs.writeFile('README.md', generateReadme, (err) =>
