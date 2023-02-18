@@ -36,7 +36,7 @@ inquirer.prompt([
     {
         type: 'input',
         name: 'tests',
-        message: 'What is your github?',
+        message: 'Test Instructions:',
     },
     {
         type: 'list',
@@ -126,7 +126,7 @@ inquirer.prompt([
         } else if (contributors == undefined){
              contrinput = ''
         }else{
-             contrinput = contributors;
+             contrinput = ', '+contributors;
         }
         const generateReadme = 
 (
@@ -134,13 +134,13 @@ inquirer.prompt([
 # ${title}
 
 # Table of Contents
-1. [Description](##Description)
-2. [Installation](##Installation)
-3. [Usage](##Usage)
-4. [Contributing](##Contributors)
-5. [Tests](##Tests)
-6. [License](##License)
-7. [Questions](###Questions)
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributors)
+5. [Tests](#tests)
+6. [License](#license)
+7. [Questions](#questions)
 
 ## Description:
 - ${description}
@@ -154,8 +154,7 @@ inquirer.prompt([
 - ${usage}
         
 ## Contributors:
-- ${name}
-${'- '+contrinput}
+- ${name}${contrinput}
         
 ## Tests:
 - ${tests}
