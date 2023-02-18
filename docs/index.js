@@ -121,6 +121,13 @@ inquirer.prompt([
         } else if (license == 'none') {
             licenseinfo = ``
         }
+        if(contributors == 'null'){
+            var contrinput = ''
+        } else if (contributors == undefined){
+             contrinput = ''
+        }else{
+             contrinput = contributors;
+        }
         const generateReadme = 
 (
 `
@@ -148,7 +155,7 @@ inquirer.prompt([
         
 ## Contributors:
 - ${name}
-- ${contributors}
+${'- '+contrinput}
         
 ## Tests:
 - ${tests}
