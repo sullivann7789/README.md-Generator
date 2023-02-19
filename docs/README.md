@@ -17,7 +17,8 @@
 - This program was created to provide users with a quick and easy way to create README.md files without getting to involved with the repetitive time-consuming tasks involved. Instead create a README.md just by answering a couple of questions!
   
 # Walkthrough Video Tutorial:
-![https://www.youtube.com/watch?v=bmHfr5sEQJE](https://user-images.githubusercontent.com/119015927/219970718-72954b0e-a433-454b-8b2b-8cdd9a8df069.jpeg)
+
+![76DA9738-93AE-40DF-B8C1-B7C40A8B5F30_1_105_c](https://user-images.githubusercontent.com/119015927/219971835-9c6aeaef-75bb-4893-9e29-eb1d770d106d.jpeg)
 
 https://www.youtube.com/watch?v=bmHfr5sEQJE
  
