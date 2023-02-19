@@ -14,7 +14,10 @@
 - A simple and easy-to-use JS program with inquirer package and fs package. By using this Program, you can create README.md files by simply answering a couple of questions in your CLI or terminal. The README.md file created follow professional formatting and structure. The README.md for this file was created by the README.md Generator
 ### Why This Project Was Made:
 - This program was created to provide users with a quick and easy way to create README.md files without getting to involved with the repetitive time-consuming tasks involved. Instead create a README.md just by answering a couple of questions!
-        
+  
+# Walkthrough Video Tutorial:
+https://www.youtube.com/watch?v=bmHfr5sEQJE
+ 
 ## Installation:
 - Copy SSH link ```git@github.com:sullivann7789/README.md-Generator.git``` HTTPS ```https://github.com/sullivann7789/README.md-Generator.git``` after so clone it into your terminal and navigate to the new folder. From there navigate to docs and you can then start the program. Alternatively, you can fork it into your Repository as well.
         
