@@ -1,5 +1,5 @@
 
-# README.md
+# README.md Generator
 
 # Table of Contents
 1. [Description](#description)
@@ -11,21 +11,21 @@
 7. [Questions](#questions)
 
 ## Description:
-- A README.md generator which produces README markdown files off a user's couple of prompt question's input
+- A JavaScript file package which you can use on your local device to automatically generate README.md files after answering a few prompts
 ### Why This Project Was Made:
-- To create README.md files easily for projects that are professional or private
+- Create a generator which can provide all types of programmers and developers from entry-level to advanced to create professional README markdown files without too much of the repetitive tasks
         
 ## Installation:
-- Either clone the repository or fork it into your local device using your terminal or command line interface.
+- Simply clone the github repo link into your local device or alternatively fork it from the github repo into your repo or other form of open-source software for managing code repos.
         
 ## Usage:
-- run -- $ node index.js -- on your terminal once in the folder -- /docs -- in your README.md generator package
+- Simply run ``` node index.js ``` into your terminal after navigating into the ``` README.md-Generator/docs ``` folder of your local device storage and answer the prompts on the terminal screen
         
 ## Contributors:
 - Noah Sullivan, 
         
 ## Tests:
-- Right-click on README.md in your IDE such as VSC and click preview, or preview the file however else you like.
+- After finishing the prompts, you should see a ``` Success! ``` message logged into the console. Then, a README.md file should be added into your folder. From here, simply move the README.md file into the folder of your choosing and open it by right-clicking and the pressing Preview in the dropdown menu selection. Now you should see your markdown file in the right Markdown format. Feel free to add to any repository or use it however you like
         
 ## License:
 - Copyright (c) 1/18/2023 Noah Sullivan
@@ -50,5 +50,5 @@
         
 ### Questions:
 - GitHub username:sullivann7789
-- GitHub link: https://github.com/sullivann7789
+- GitHub link: https://github.com/sullivann7789/README.md-Generator
 - You can contact us at: noahsullivan382@gmail.com
