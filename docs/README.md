@@ -11,21 +11,21 @@
 7. [Questions](#questions)
 
 ## Description:
-- A simple and easy-to-use JS program with ``` inquirer ``` package and fs package. By using this Program, you can create README.md files by simply answering a couple of questions in your CLI or terminal. The README.md file created follow professional formatting and structure. The README.md for this file was created by the README.md Generator
+- A simple and easy-to-use JS program with inquirer package and fs package. By using this Program, you can create README.md files by simply answering a couple of questions in your CLI or terminal. The README.md file created follow professional formatting and structure. The README.md for this file was created by the README.md Generator
 ### Why This Project Was Made:
-- This program was  created to provide users with a quick and easy way to create README.md files without getting to involved with the repetitive time-consuming tasks involved. Instead create a README.md just by answering a couple of questions!
+- This program was created to provide users with a quick and easy way to create README.md files without getting to involved with the repetitive time-consuming tasks involved. Instead create a README.md just by answering a couple of questions!
         
 ## Installation:
-- Copy SSH link ``` git@github.com:sullivann7789/README.md-Generator.git ``` \n or \n HTTPS ```https://github.com/sullivann7789/README.md-Generator.git``` after so clone it into your terminal and navigate to the new folder. From there navigate to docs and you can then start the program. \n Alternatively, you can fork it into your Repository as well. 
+- Copy SSH link ```git@github.com:sullivann7789/README.md-Generator.git``` HTTPS ```https://github.com/sullivann7789/README.md-Generator.git``` after so clone it into your terminal and navigate to the new folder. From there navigate to docs and you can then start the program. Alternatively, you can fork it into your Repository as well.
         
 ## Usage:
-- Use command ``` node index.js ``` and follow a series of prompts until you reach a console.log of ``` Success! ```
+- Use command ```node index.js``` and follow a series of prompts until you reach a ```console.log``` of ```Success!```
         
 ## Contributors:
-- Noah Sullivan, Source Code from UCSD Bootcamp extended studies
+- Noah Sullivan, Starter Code from UCSD Extended Studies Boot Camp
         
 ## Tests:
-- After running instructions for installation, check your ``` /docs ``` folder. Inside it you should find a new README.md file. Feel free to open it, or right-click and then preview the new README.md file. \n Voilla! You now have your README.md which you can do with whatever you so choose.
+- After running instructions for installation, check your /docs folder. Inside it you should find a new README.md file. Feel free to open it, or right-click and then preview the new README.md file. Voilla! You now have your README.md which you can do with whatever you so choose.
         
 ## License:
 - Copyright (C) 1/18/2023 Noah Sullivan
