@@ -125,6 +125,8 @@ inquirer.prompt([
             var contrinput = ''
         } else if (contributors == undefined){
              contrinput = ''
+        } else if (contributors == ''){
+             contrinput = ''
         }else{
              contrinput = ', '+contributors;
         }
