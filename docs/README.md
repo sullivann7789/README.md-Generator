@@ -1,5 +1,5 @@
 
-# README.md Generator
+# README.md
 
 # Table of Contents
 1. [Description](#description)
@@ -11,21 +11,21 @@
 7. [Questions](#questions)
 
 ## Description:
-- A node.js proect that allows the user to create README.md files using their terminal on their device
+- A README.md generator which produces README markdown files off a user's couple of prompt question's input
 ### Why This Project Was Made:
-- It would be helpful for coders to have a program that will allow them to create professional README.md files just by answering some simple questions about their project
+- To create README.md files easily for projects that are professional or private
         
 ## Installation:
-- Simply clone or fork my repositiory into a file of your choosing on your device. 
+- Either clone the repository or fork it into your local device using your terminal or command line interface.
         
 ## Usage:
-- Once you are in the terminal use code -- node index.js and answer the prompts as they come onto the screen in your terminal or CLI
+- run -- $ node index.js -- on your terminal once in the folder -- /docs -- in your README.md generator package
         
 ## Contributors:
 - Noah Sullivan, 
         
 ## Tests:
-- After answering all questions on the prompt, you should see a README.md file in your folder. Right-click on the README.md file with your mouse and then click "preview" your file should come out in markdown format in your IDE. 
+- Right-click on README.md in your IDE such as VSC and click preview, or preview the file however else you like.
         
 ## License:
 - Copyright (c) 1/18/2023 Noah Sullivan
