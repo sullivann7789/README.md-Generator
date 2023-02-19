@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=bmHfr5sEQJE
 - Noah Sullivan, Starter Code from UCSD Extended Studies Boot Camp
         
 ## Tests:
-- After running instructions for installation, check your /docs folder. Inside it you should find a new README.md file. Feel free to open it, or right-click and then preview the new README.md file. Voilla! You now have your README.md which you can do with whatever you so choose.
+- After running instructions for installation, check your /docs folder. Inside it you should find a new README.md file. Feel free to open it, or right-click and then preview the new README.md file. Voila! You now have your README.md which you can do with whatever you so choose.
         
 ## License:
 - Copyright (C) 1/18/2023 Noah Sullivan
