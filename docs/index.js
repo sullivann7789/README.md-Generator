@@ -165,7 +165,7 @@ inquirer.prompt([
 - ${licenseinfo}
         
 ### Questions:
-- GitHub username:${gitUser}
+- GitHub username: ${gitUser}
 - GitHub link: ${gitLink}
 - You can contact us at: ${email}`
 );

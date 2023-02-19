@@ -50,6 +50,6 @@ https://www.youtube.com/watch?v=bmHfr5sEQJE
             limitations under the License.
         
 ### Questions:
-- GitHub username:sullivann7789
+- GitHub username: sullivann7789
 - GitHub link: https://github.com/sullivann7789/README.md-Generator
 - You can contact us at: noahsullivan382@gmail.com
