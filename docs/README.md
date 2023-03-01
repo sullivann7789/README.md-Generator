@@ -12,7 +12,7 @@
 8. [Questions](#questions)
 
 ## Description:
-- A simple and easy-to-use JS program running on ```node.js``` with ```inquirer``` package and ```fs``` package. By using this Program, you can create ```README.md``` files by simply answering a couple of questions in your CLI or terminal. The README.md file created follow professional formatting and structure.  <br> <br> <b> The README.md for this file was created by the README.md Generator
+- A simple and easy-to-use JS program running on ```node.js``` with ```inquirer``` package and ```fs``` package. By using this Program, you can create ```README.md``` files by simply answering a couple of questions in your CLI or terminal. The README.md file created follows professional formatting and structure.  <br> <br> <b> The README.md for this file was created by the README.md Generator
 ### Why This Project Was Made:
 - This program was created to provide users with a quick and easy way to create README.md files without getting to involved with the repetitive time-consuming tasks involved. Instead create a README.md just by answering a couple of questions!
   
